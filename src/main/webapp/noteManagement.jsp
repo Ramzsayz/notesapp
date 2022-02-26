@@ -121,10 +121,10 @@ color:white;
 							<td><c:out value="${notes.note}" /></td>
 							<!-- For each note in the database, Edit/Delete
 buttons which invokes the edit/delete functions -->
-							<td><a class="btn btn-warning"
+							<td><a class="btn btn-warning" name="edit"
 								href="NotesServlet/edit?id=<c:out value='${notes.id}'
 />">Edit</a>
-							<td><a class="btn btn-danger"
+							<td><a class="btn btn-danger" name="delete"
 								href="NotesServlet/delete?id=<c:out value='${notes.id}'
 />">Delete</a>
 						</tr>

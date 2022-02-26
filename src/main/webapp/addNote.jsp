@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +56,7 @@
 					<b class="centralise">Note: </b><input class="centralise"
 						type="text" name="note" style="width: 585px;"><br>
 					<div class="container text-center">
-						<br><br> <input type="submit" class="btn btn-danger"
+						<br><br> <input id="addNote" type="submit" class="btn btn-danger"
 							value="Add note" style="width: 200px;" />
 					</div>
 				</form>

@@ -38,7 +38,7 @@ public class NewTest {
 	//}
 	
 	public void updateUser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files(x86)\\Google\\Chrome\\chromedriver.exe");
 		// define the drive instance
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://localhost:8090/mynotesapp/login.jsp");

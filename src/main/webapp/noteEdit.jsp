@@ -81,7 +81,7 @@ value='${note.title}' />" class="form-control"
 value='${note.note}' />" class="form-control"
 						name="note">
 				</fieldset>
-				<button type="submit" class="btn btn-success" >Save</button>
+				<button id="editNote" type="submit" class="btn btn-success" >Save</button>
 				</form>
 			</div>
 		</div>
