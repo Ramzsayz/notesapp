@@ -19,7 +19,7 @@ public class NotesTest {
 		  // define the drive instance
 		  WebDriver driver = new ChromeDriver();
 		  //get notes
-		  driver.get("http://localhost:8090/mynotesapp/NotesServlet");
+		  driver.get("http://localhost:9999/mynotesapp/NotesServlet");
 			
 			 // nagivate the browser to this url
 			  
@@ -36,7 +36,7 @@ public class NotesTest {
 			
 //			 driver.findElement(By.xpath("//a[@href='NotesServlet/edit?id=41']")).click();
 			 //NotesServlet/edit?id EDIT NOTE
-			 driver.get("http://localhost:8090/mynotesapp/NotesServlet");
+			 driver.get("http://localhost:9999/mynotesapp/NotesServlet");
 			 driver.findElement(By.name("edit")).click();
 			 driver.findElement(By.name("title")).clear();
 			 driver.findElement(By.name("note")).clear();
@@ -47,7 +47,7 @@ public class NotesTest {
 		  
 		  //DELETE NOTE
 		  //driver.findElement(By.xpath("//a[@href='NotesServlet/delete?id=41']")).click();
-			 driver.get("http://localhost:8090/mynotesapp/NotesServlet");
+			 driver.get("http://localhost:9999/mynotesapp/NotesServlet");
 			 driver.findElement(By.name("delete")).click();
 //		  
 //		  //find input and fill COMMENTED LINE 29 OUT

@@ -16,7 +16,7 @@ public class NewTest {
 //		
 //		WebDriver driver = new ChromeDriver();
 //		
-//		driver.get("http://localhost:8090/mynotesapp/register.jsp");
+//		driver.get("http://localhost:9999/mynotesapp/register.jsp");
 //		
 //		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("Testing2");
 //		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("testing123");
@@ -31,7 +31,7 @@ public class NewTest {
 	//public void login() {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\chromedriver.exe");
 		//WebDriver driver = new ChromeDriver();
-		//driver.get("http://localhost:8090/mynotesapp/login.jsp");
+		//driver.get("http://localhost:9999/mynotesapp/login.jsp");
 		//driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("Testing");
 		//driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("testing123");
 		//.findElement(By.xpath("//*[@id=\"signin\"]")).click();
@@ -41,7 +41,7 @@ public class NewTest {
 //		System.setProperty("webdriver.chrome.driver", "C:\\Program Files(x86)\\Google\\Chrome\\chromedriver.exe");
 //		// define the drive instance
 //		WebDriver driver = new ChromeDriver();
-//		driver.get("http://localhost:8090/mynotesapp/login.jsp");
+//		driver.get("http://localhost:9999/mynotesapp/login.jsp");
 //		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("Testing");
 //		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("testing123");
 //		driver.findElement(By.xpath("//*[@id=\"signin\"]")).click();

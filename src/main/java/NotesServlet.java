@@ -113,7 +113,7 @@ public class NotesServlet extends HttpServlet {
 		}
 		// Step 3: redirect back to NotesServlet (note: remember to change the url to
 		// your project name)
-		response.sendRedirect("http://localhost:8090/mynotesapp/NotesServlet");
+		response.sendRedirect("http://localhost:9999/mynotesapp/NotesServlet");
 	}
 
 	// method to delete note
@@ -128,7 +128,7 @@ public class NotesServlet extends HttpServlet {
 		}
 		// Step 3: redirect back to UserServlet dashboard (note: remember to change the
 		// url to your project name)
-		response.sendRedirect("http://localhost:8090/mynotesapp/NotesServlet");
+		response.sendRedirect("http://localhost:9999/mynotesapp/NotesServlet");
 	}
 
 	/**

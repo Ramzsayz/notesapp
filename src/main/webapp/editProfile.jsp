@@ -37,7 +37,7 @@
 			<p>MYNOTESAPP</p>
 		</div>
 		<ul>
-			<li><a href="http://localhost:8090/mynotesapp/userHome.jsp" class="active">Home</a></li>
+			<li><a href="http://localhost:9999/mynotesapp/userHome.jsp" class="active">Home</a></li>
 			<li><a href="">Notes</a></li>
 			<li><a href="">Reminders</a></li>
 			<li><a href="AdminServlet/dashboard">Admin</a></li>

@@ -197,7 +197,7 @@ public class RemindersServlet extends HttpServlet {
 			// Step 3: redirect back to UserServlet (note: remember to change the url to
 			// your project name)
 		}
-			response.sendRedirect("http://localhost:8090/mynotesapp/RemindersServlet/dashboard");
+			response.sendRedirect("http://localhost:9999/mynotesapp/RemindersServlet/dashboard");
 		}
 
 	private void deleteReminder(HttpServletRequest request, HttpServletResponse response)
@@ -216,7 +216,7 @@ public class RemindersServlet extends HttpServlet {
 					// your project name)
 				}
 			 //Step 3: redirect back to UserServlet dashboard (note: remember to change the url to your project name)
-			 response.sendRedirect("http://localhost:8090/mynotesapp/RemindersServlet/dashboard");
+			 response.sendRedirect("http://localhost:9999/mynotesapp/RemindersServlet/dashboard");
 			}
 	
 }
