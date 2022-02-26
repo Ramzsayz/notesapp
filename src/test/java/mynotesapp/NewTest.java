@@ -37,17 +37,17 @@ public class NewTest {
 		//.findElement(By.xpath("//*[@id=\"signin\"]")).click();
 	//}
 	
-	public void updateUser() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files(x86)\\Google\\Chrome\\chromedriver.exe");
-		// define the drive instance
-		WebDriver driver = new ChromeDriver();
-		driver.get("http://localhost:8090/mynotesapp/login.jsp");
-		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("Testing");
-		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("testing123");
-		driver.findElement(By.xpath("//*[@id=\"signin\"]")).click();
-		driver.findElement(By.linkText("ADMIN")).click();
-		driver.findElement(By.linkText("Edit")).click();
-	}
+//	public void updateUser() {
+//		System.setProperty("webdriver.chrome.driver", "C:\\Program Files(x86)\\Google\\Chrome\\chromedriver.exe");
+//		// define the drive instance
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("http://localhost:8090/mynotesapp/login.jsp");
+//		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("Testing");
+//		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("testing123");
+//		driver.findElement(By.xpath("//*[@id=\"signin\"]")).click();
+//		driver.findElement(By.linkText("ADMIN")).click();
+//		driver.findElement(By.linkText("Edit")).click();
+//	}
 	
 
 	@BeforeTest
